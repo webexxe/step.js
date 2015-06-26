@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>step.js v1.0.1 - Example</title>
+        <meta name="description" content="Step by step form interface" />
+        <meta name="keywords" content="step form, step css animations, interface step, step tab, web design" />
+        <meta name="author" content="Emre Tekin" />
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/animation.css">
+        <link rel="stylesheet" href="css/step.css">    
+        <!-- step.js v1.0.1 | MIT License | github.com/webexxe */ -->
+    </head>
+    <body>
+
+        <div class="container">
+            <h1>step.js v1.0.1</h1>
+            <p>step.js <a href="//github.com/webexxe" target="_blank">github Download</a></p>
+            <p></p>         
+        </div>
+
+        <!-- step.js v1.0.1 | HTML START -->
+        <div id="step">
+
+            <div class="stepBar"><div class="stpBvalue"></div></div>
+            <ul class="stepNavigation"></ul>
+
+            <div class="stepContainer container">
+                <div class="stpCont animated active" id="st1">
+                    <div>
+                        <h2>LOREM IPSUM</h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    </div>
+                    <div class="stpNext">START IMMEDIATELY</div>
+                </div>
+
+                <div class="stpCont animated" id="st2">
+                    <input type="text" id="name" required>
+                    <label for="name">Name</label>
+                    <div class="stpNext required">NEXT</div>
+                </div>  
+
+                <div class="stpCont animated" id="st3">
+                    <select id="gender" required=>
+                        <option value="" selected="" disabled="">Gender Select</option>          
+                        <option value="Man">Male</option>          
+                        <option value="Woman">Female</option>                                   
+                    </select>
+                    <label for="gender">Gender</label>
+                    <div class="stpNext required">NEXT</div>
+                </div>  
+
+                <div class="stpCont animated" id="st4">
+                    <input type="text" id="mail" required>
+                    <label for="mail">E-Mail</label>
+                    <div class="stpNext required">NEXT</div>
+                </div>
+
+                <div class="stpCont animated" id="st5">
+                    <input type="password" id="passw" required>
+                    <label for="passw">Password</label>
+                    <div class="stpNext required final">SUBMİT</div>
+                </div>
+
+                <div class="stpCont animated final">
+                    <h2>YOUR ACCOUNT HAS BEEN CREATED</h2>
+                    <p>Email your activation code has been sent.</p>
+                </div>                
+            </div>
+
+        </div>   
+        <!-- step.js v1.0.1 | HTML FINISH -->
+
+        <script src="js/min/jquery-1.11.2.min.js"></script>
+        <script src="js/min/step.min.js"></script>
+
+    </body>
+</html>
