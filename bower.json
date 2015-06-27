@@ -1,0 +1,23 @@
+{
+  "name": "webexxe/step.js",
+  "version": "0.0.1",
+  "authors": [
+    "Emre Tekin <web.exxe@gmail.com>"
+  ],
+  "description": " Step by step form interface",
+  "keywords": [
+    "step.js"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/webexxe/step.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~1.11.2"
+  }
+}

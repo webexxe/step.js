@@ -3,7 +3,7 @@
 $(function () {
 
     // AYARLAR
-    var alertMessage ="Please fill out the required fields..."
+    var alertMessage ="Please fill out the required fields...";
     var inEffect = "fadeInUpBig";
     var outEffect = "fadeOutUpBig";
     var finalEffect = "fadeInDown";
@@ -44,7 +44,7 @@ $(function () {
         $(".stpNav.g").each(function(){gadet = gadet + 1;});
         var barValue = yuzde * gadet;
         $(".stpBvalue").css("width", barValue+"%");
-    };
+    }
 
     // ILERI GITME
     function nexTo(item){
@@ -68,7 +68,7 @@ $(function () {
                 $(".stpCont.final").addClass("active " + finalEffect);
             }, 1010);
         }
-    };
+    }
 
     $(".stpNext").click(function(){
         if($(this).hasClass("required")){
@@ -115,4 +115,4 @@ $(function () {
     });    
 
 
-})   
+});
