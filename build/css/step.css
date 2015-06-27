@@ -21,9 +21,8 @@ a{
     min-height: 10px;
 }
 #step {
-    background: url(../img/bg.jpg) center center no-repeat;
     background-size: cover;
-    background-color: #fff;
+    background: #fff url("img/bg.jpg") no-repeat center center;
     margin: 200px 0 50px;
     position: relative;
     overflow: hidden;
@@ -68,14 +67,13 @@ a{
     display: inline-block;
     min-width: 100px;
     font-size: 18px;
-    margin: auto;
     color: #fff;
     line-height: 45px;
     padding: 0 15px;
     text-align: center;
     background-color: #29BBF0;
     cursor: pointer;
-    margin-top: 50px;
+    margin: 50px auto auto;
     box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.2);
     text-shadow: none;
 }
